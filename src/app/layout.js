@@ -1,7 +1,15 @@
-import { Inter } from "next/font/google";
+import { Inter,Montserrat } from "next/font/google";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat(
+    {subsets:["latin"],
+      variable:'--font-montserrat'
+
+
+    })
+
 
 export const metadata = {
   title: "Create Next App",

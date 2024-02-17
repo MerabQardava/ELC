@@ -1,0 +1,66 @@
+
+
+.classesCardContainer {
+    width: 330px;
+    height: 233px;
+    border-radius: 26px;
+    /*background-color: red;*/
+    position: relative;
+    color: white;
+    /*background-image: url("https://cdn.pixabay.com/photo/2017/08/23/15/39/square-2673252_640.png");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:28px 16.5px  ;
+    box-sizing: border-box;
+}
+.price{
+    width: 68px;
+    height: 27px;
+    border-radius: 39px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    font-family: "Montserrat",serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.classCardBody{
+    /*background-color: blue;*/
+    width: 195px;
+    height: 100%;
+    font-family:Montserrat, serif;
+    position: relative;
+}
+.classCardBody>*{
+    margin: 0;
+}
+
+.classCardBody h1{
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.classCardBody p:first-of-type{
+    font-size: 14px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+
+}
+.classCardBody p:nth-of-type(2){
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+
+
+
+}
